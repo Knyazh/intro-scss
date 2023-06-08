@@ -219,7 +219,7 @@
 .mainimg {
   height: 600px;
   width: 100%;
-  background-image: url(../../img/run.jpg);
+  background-image: url(../img/run.jpg);
 }
 .mainimg .design-with {
   background-color: yellow;
@@ -254,19 +254,19 @@
   background-color: slategrey;
 }
 #banners-img .banners .banner1 {
-  background-image: url(../../img/banner1.jpg);
+  background-image: url(../img/banner1.jpg);
   background-repeat: no-repeat;
 }
 #banners-img .banners .banner2 {
-  background-image: url(../../img/banner2.jpg);
+  background-image: url(../img/banner2.jpg);
   background-repeat: no-repeat;
 }
 #banners-img .banners .banner3 {
-  background-image: url(../../img/banner3.jpg);
+  background-image: url(../img/banner3.jpg);
   background-repeat: no-repeat;
 }
 #banners-img .banners .banner4 {
-  background-image: url(../../img/banner4.jpg);
+  background-image: url(../img/banner4.jpg);
   height: 150px;
   width: 250px;
 }

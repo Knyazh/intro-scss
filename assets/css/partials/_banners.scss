@@ -3,19 +3,19 @@
     .banners{
         background-color: slategrey;
         .banner1{
-            background-image: url(../../img/banner1.jpg);
+            background-image: url(../img/banner1.jpg);
          background-repeat: no-repeat;
         }
         .banner2{
-            background-image: url(../../img/banner2.jpg);
+            background-image: url(../img/banner2.jpg);
             background-repeat:no-repeat;
         }
         .banner3{
-            background-image: url(../../img/banner3.jpg);
+            background-image: url(../img/banner3.jpg);
          background-repeat: no-repeat;
         }
         .banner4{
-            background-image: url(../../img/banner4.jpg);
+            background-image: url(../img/banner4.jpg);
             height: 150px;
             width: 250px;
         }
@@ -23,6 +23,12 @@
             top: 100px;
             color:aliceblue;
             left: 50px;
+        }
+        .banner-logo{
+            color: aliceblue;
+            font-size: 35px;
+            top: 45px;
+            left: 90px
         }
     }
 }
