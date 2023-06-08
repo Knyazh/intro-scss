@@ -1,0 +1,85 @@
+@import"./variable";
+
+#header-mid{
+    background: rgba(20, 20, 20, 1);
+    color:rgba(165,165,165,1) ;
+    .journal-hidden{
+        display: none;
+      }
+      .search-bar{
+        h3{
+            font-size: 15px;
+            color: #ffffff  ;
+            background-color: blue;
+            padding: 7px 8px;
+        }
+        a{
+            font-size: 15px;
+            color: #ffffff  ;
+            background-color: blue;
+            padding: 7px 10px;
+        }
+        input [type="search"] {
+            border: none;
+            outline: none;
+            background: none;
+          
+            padding: 8px 12px;
+            width: 50%;
+            background-color: #999;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          
+            &::placeholder {
+              color: #999;
+              font-style: italic;
+            }
+          
+            &:focus {
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              border: 1px solid #ccc;
+            }
+
+        }
+      }
+      .header-mid-div{
+        width: 93%;
+        margin: 0 auto;
+        height: 70px;
+        .header-mid-ul{
+            text-decoration: none;
+            list-style-type: none;
+            li{
+                a{
+                    color: #999;
+                    i{
+                        font-size: 30px;
+                        margin-left: 15px;
+                        padding: 5px;
+                        .shopping-logo{
+                            color: aliceblue ;
+                            background-color: blue;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+          }
+        .header-mid-text {
+           h1{
+            pad: 18px 18px 18px 0px;
+            font-size: 25px;
+             color: #ffffff;
+           }
+           a{
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 25px;
+            margin-left: 15px;
+           }
+          }
+      }
+      
+  }
+  @media ( min-width: 400px)and (max-width:1060px){
+    @include media-styles-header-mid;
+  }

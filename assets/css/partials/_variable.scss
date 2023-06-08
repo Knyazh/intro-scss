@@ -1,0 +1,38 @@
+@mixin mobile-styles-header-top{
+    .finance-div{
+        display: none;
+    }
+
+    .free-shipping{
+        display: none;
+    }
+    .logo{
+        margin-left: 60px;
+        width: 100%;
+    }
+    .header-top-ul li{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+@mixin media-styles-header-mid{
+    .header-mid-text h1 {
+      display: block;
+      width: 100%;
+    }
+  
+    .header-mid-text {
+      display: none;
+    }
+  
+    .header-mid-logo {
+      display: none;
+    }
+  
+    .journal-hidden {
+      display: block;
+      text-align: center;
+    }
+  }
