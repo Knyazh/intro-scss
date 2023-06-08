@@ -246,4 +246,38 @@
   .mainimg {
     width: 100%;
   }
+}
+#banners-img {
+  background-color: slategray;
+}
+#banners-img .banners {
+  background-color: slategrey;
+}
+#banners-img .banners .banner1 {
+  background-image: url(../../img/banner1.jpg);
+  background-repeat: no-repeat;
+}
+#banners-img .banners .banner2 {
+  background-image: url(../../img/banner2.jpg);
+  background-repeat: no-repeat;
+}
+#banners-img .banners .banner3 {
+  background-image: url(../../img/banner3.jpg);
+  background-repeat: no-repeat;
+}
+#banners-img .banners .banner4 {
+  background-image: url(../../img/banner4.jpg);
+  height: 150px;
+  width: 250px;
+}
+#banners-img .banners .sample-banner {
+  top: 100px;
+  color: aliceblue;
+  left: 50px;
+}
+#banners-img .banners .banner-logo {
+  color: aliceblue;
+  font-size: 35px;
+  top: 45px;
+  left: 90px;
 }/*# sourceMappingURL=style.css.map */
