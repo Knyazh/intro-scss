@@ -36,3 +36,9 @@
       text-align: center;
     }
   }
+
+  @mixin main-picture-with-mobile{
+    .mainimg{
+      width: 100%;
+  }
+  }

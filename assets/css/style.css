@@ -215,4 +215,35 @@
     display: block;
     text-align: center;
   }
+}
+.mainimg {
+  height: 600px;
+  width: 100%;
+  background-image: url(../../img/run-1400x650h.jpg);
+}
+.mainimg .design-with {
+  background-color: yellow;
+  color: rgb(0, 0, 0);
+  top: 150px;
+  left: 55px;
+  font-size: 35px;
+}
+.mainimg .pixel-perfect {
+  left: 55px;
+  top: 195px;
+  font-size: 120px;
+  color: aliceblue;
+  line-height: 100px;
+}
+.mainimg .precision {
+  top: 400px;
+  left: 55px;
+  font-size: 45px;
+  color: rgb(47, 47, 178);
+}
+
+@media (max-width: 400px) {
+  .mainimg {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
